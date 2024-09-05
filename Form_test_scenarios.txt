@@ -1,0 +1,37 @@
+VALIDATE FORM SUBMITION
+
+	Succesfully submit form with requirements fulfilled:
+		1. Go to tested form web app.
+		2. Fill all required fields and check all required boxes (the ones with '*')
+		3. Check if there are no error prompts
+		4. Click "ZAREJESTRUJ" button
+		5. See if submition was successful (text "dziękujemy za rejestrację!" is visible
+	
+	Can't submit form when requirements not fulfilled:
+		1. Go to tested form web app.
+		2. Leave all required fields empty
+		3. Click "ZAREJESTRUJ" button
+		4. Check if there are proper error prompts and submition failed.
+	
+	Can't submit form when single requirement not fulfilled:
+		Do for every requirement:
+		1. Go to tested form web app.
+		2. Leave just one required field empty
+		3. Click "ZAREJESTRUJ" button
+		4. Check if there is error prompt for missing requirement and submition failed.
+		
+		For fields that demands specific format:
+		1. Go to tested form web app.
+		2. Input wrong format string.
+		3. Click "ZAREJESTRUJ" button
+		4. Check if there is error prompt for missing requirement and submition failed.
+		
+VERIFY VISUAL BEHAVIOR
+	
+	Placeholders dissapear when user start typing:
+		1. Go to tested form web app.
+		2. For every field with placeholder check if placeholder dissapear when user start typing.
+		
+	Button "ZAREJESTRUJ" highlits when hovered
+	
+	Boxes marks or unmarks when clicked
